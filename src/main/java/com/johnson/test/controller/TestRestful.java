@@ -56,7 +56,7 @@ public class TestRestful {
 			){
 		Map<String,String> resultMap = new HashMap<String, String>();
 		resultMap.put("code", "00");
-		resultMap.put("message", "请求成功");
+		resultMap.put("message", "放大师傅大是大非");
 		resultMap.put("code", "00");
 		resultMap.put("message", "请求成功");
 		return resultMap ;
