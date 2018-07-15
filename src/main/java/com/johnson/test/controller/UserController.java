@@ -42,6 +42,7 @@ public class UserController {
 			User user = users.get(id);
 			r.setResult(user);
 			r.setResult(user);
+			r.setResult(user);
 			r.setStatus("ok");
 		} catch (Exception e) {
 			r.setResult(e.getClass().getName() + ":" + e.getMessage());
