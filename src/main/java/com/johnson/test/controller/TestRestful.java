@@ -42,7 +42,6 @@ public class TestRestful {
 		Map<String,Object> resultMap = new HashMap<String, Object>();
 		List<String> projectList = new ArrayList<String>();
 		projectList.add("项目1");
-		projectList.add("项目2");
 		projectList.add("项目3");
 		resultMap.put("projectList", projectList);
 		return Result.success(resultMap);
